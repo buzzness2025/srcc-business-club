@@ -1,4 +1,4 @@
-const BASE_URL = '/api';
+const BASE_URL = import.meta.env.VITE_API_URL || '/api';
 
 const TOKEN_KEY = 'srcc_business_club_admin_token';
 
