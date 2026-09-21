@@ -1,0 +1,25 @@
+# Dependencies
+server/node_modules/
+client/node_modules/
+
+# SQLite Database (local only - data lives in Firebase in production)
+server/club.db
+
+# Firebase Service Account Key (NEVER commit this to GitHub - it's a secret!)
+server/serviceAccountKey.json
+
+# Build output
+client/dist/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
