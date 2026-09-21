@@ -1,5 +1,6 @@
 name: Deploy client to GitHub Pages
-
+env:
+  VITE_API_URL: https://srcc-business-club.onrender.com/api
 on:
   push:
     branches:
